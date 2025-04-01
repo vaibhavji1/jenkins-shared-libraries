@@ -1,3 +1,2 @@
-def hello(){
-  echo "hello frands"
-}
+def hello = new HelloClass()
+hello.sayHello('World')
